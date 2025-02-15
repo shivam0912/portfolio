@@ -147,36 +147,7 @@ export const DATA = {
       image: "/campus-connect.png",
       video: "",
     },
-    {
-      title: "The Ultimate Blog",
-      href: "https://the-ultimate-blog.vercel.app",
-      dates: "December 2024",
-      active: true,
-      description:
-        "The Ultimate Blog is a modern blogging platform built with React.js, Tailwind CSS, Clerk, and MongoDB, designed for seamless content creation and management. It features a sleek, user-friendly interface, real-time data handling, and secure authentication, making it an ideal solution for writers and readers alike.",
-      technologies: [
-        "ReactJS",
-        "Node.js",
-        "MongoDB",
-        "TailwindCSS",
-        "Clerk",
-
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://the-ultimate-blog.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/shivam0912/theultimate-blog",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/tub.png",
-      video: "",
-    },
+    
     {
       title: "Spotify-but-Better",
       href: "https://spotify-but-better-e0ep.onrender.com/",
@@ -206,7 +177,37 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "/portfolio.png",
+      image: "/spotify.png",
+      video: "",
+    },
+    {
+      title: "The Ultimate Blog",
+      href: "https://the-ultimate-blog.vercel.app",
+      dates: "December 2024",
+      active: true,
+      description:
+        "The Ultimate Blog is a modern blogging platform built with React.js, Tailwind CSS, Clerk, and MongoDB, designed for seamless content creation and management. It features a sleek, user-friendly interface, real-time data handling, and secure authentication, making it an ideal solution for writers and readers alike.",
+      technologies: [
+        "ReactJS",
+        "Node.js",
+        "MongoDB",
+        "TailwindCSS",
+        "Clerk",
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://the-ultimate-blog.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/shivam0912/theultimate-blog",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/tub.png",
       video: "",
     },
     {
