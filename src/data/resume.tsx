@@ -178,6 +178,38 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Spotify-but-Better",
+      href: "https://spotify-but-better-e0ep.onrender.com/",
+      dates: "February 2025",
+      active: true,
+      description:
+        "A modern music streaming application with real-time chat, user authentication, and a sleek UI. Built using Node.js, Express, Socket.io, Clerk for authentication, React, TailwindCSS, and ShadCN.",
+      technologies: [
+        "ReactJS",
+        "Javascript",
+        "Typescript",
+        "MongoDB",
+        "Clerk",
+        "Socket.io",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://spotify-but-better-e0ep.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/shivam0912/spotify-but-better",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/portfolio.png",
+      video: "",
+    },
+    {
       title: "p2p video calling app",
       href: "https://github.com/shivam0912/webRTC-p2p-call-app",
       dates: "July 2024",
@@ -205,6 +237,7 @@ export const DATA = {
       image: "/Todolist.png",
       video: "",
     },
+
     {
       title: "Portfolio",
       href: "",
