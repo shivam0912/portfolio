@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Tech Enthusiast turned Software Engineer . I love building things and helping people. Very active on Twitter.",
   summary:
-    "I’m a passionate [final year MCA Student](#education) with a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps, and the emerging world of Web3](#education). I thrive on building innovative [products](#projects) and sharing my insights through blogging. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
+    "I'm a passionate [Full Stack Developer](#education) with extensive expertise in AI-powered development tools and modern web technologies. My journey has led me to develop a strong foundation in [Web development](#education). I specialize in working with cutting-edge AI tools like Lovable, Cursor, Replit, and modern platforms like Supabase to build innovative [products](#projects) efficiently. I thrive on creating seamless web experiences and sharing my insights through blogging. Always eager to expand my skills and tackle new challenges, I'm actively seeking lucrative opportunities to leverage my tech expertise and AI tool proficiency to drive impactful projects and deliver exceptional results for clients.",
   avatarUrl: "/profile.png",
   skills: [
     "React",
@@ -28,6 +28,9 @@ export const DATA = {
     "AWS",
     "CI/CD",
     "OpenAPI",
+    "Lovable",
+    "Cursor",
+    "Supabase",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -76,35 +79,23 @@ export const DATA = {
 
   work: [
     {
-      company: "Freelance Web Developer",
-      href: "",
-      badges: [],
+      company: "Upwork Freelancer",
+      href: "https://www.upwork.com/freelancers/shivamxdev",
+      badges: ["Top Rated", "100% Job Success"],
       location: "Remote",
-      title: "Full Stack Developer",
+      title: "Full Stack Developer & AI Specialist",
       logoUrl: "/memoji.jpeg",
       start: "2024",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
-    },
-    {
-      company: "Open Source",
-      badges: [],
-      href: "https://github.com/shivam0912",
-      location: "Remote",
-      title: "Contributor",
-      logoUrl: "/github-mark.png",
-      start: "2023",
-      end: "Present",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Top Rated freelancer on Upwork with 100% Job Success Score, delivering high-quality web development solutions using modern technologies. Specializing in Full Stack Development with expertise in MERN stack, Lovable.dev, Cursor, and Replit. Successfully completed projects involving React/Next.js applications, Supabase integration, and AI-powered web solutions for clients worldwide.",
     },
   ],
   education: [
     {
       school: "100xDevs",
       href: "https://app.100xdevs.com",
-      degree: "Full Stack Web Development, DevOps & Web3 Bootcamp",
+      degree: "Full Stack Web Development Bootcamp",
       logoUrl: "/100xDevs.png",
       start: "2023",
       end: "2024",
@@ -120,125 +111,86 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Campus Connect",
-      href: "https://campus-connect-8pea.vercel.app",
-      dates: "April 2024",
+      title: "PeachHaus Property Management Platform",
+      href: "https://www.peachhausgroup.com/",
+      dates: "December 2024 - January 2025",
       active: true,
-      description:'Campus Connect is a MERN stack platform that helps students buy and sell pre-owned items within their campus community. It allows students to list new, old, or leftover items, making it easier for others to find affordable options and save money.',
+      description:
+        "Enhanced Georgia's premier property management platform by resolving critical form-related issues, implementing automated n8n workflows for business process optimization, and integrating GoHighLevel CRM system. Improved user experience for 345+ satisfied property owners and streamlined operations for short-term, mid-term, and long-term rental management.",
       technologies: [
+        "Next.js",
         "ReactJS",
         "Javascript",
-        "Node.js",
-        "CSS",
-        "MongoDB",
+        "n8n Automation",
+        "GoHighLevel CRM",
+        "API Integration",
+        "Form Validation",
+        "Workflow Automation",
       ],
       links: [
         {
           type: "Website",
-          href: "https://campus-connect-8pea.vercel.app",
+          href: "https://www.peachhausgroup.com/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/shivam0912/campus-connect",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
-      image: "/campus-connect.png",
+      image: "/peachhouse.png",
       video: "",
     },
-    
     {
-      title: "Spotify-but-Better",
-      href: "https://spotify-but-better-e0ep.onrender.com/",
-      dates: "February 2025",
+      title: "MyndfulMind AI Chatbot Platform",
+      href: "https://www.myndfulmind.com/",
+      dates: "November 2024 - December 2024",
       active: true,
       description:
-        "A modern music streaming application with real-time chat, user authentication, and a sleek UI. Built using Node.js, Express, Socket.io, Clerk for authentication, React, TailwindCSS, and ShadCN.",
+        "Developed an advanced AI chatbot system with multiple personas, each equipped with unique system prompts to deliver personalized conversational experiences. Implemented sophisticated prompt engineering techniques to ensure each persona maintains distinct personality traits, communication styles, and expertise areas, significantly enhancing user engagement and satisfaction.",
       technologies: [
         "ReactJS",
-        "Javascript",
+        "Node.js",
+        "OpenAI API",
+        "Prompt Engineering",
+        "AI Development",
+        "System Prompts",
+        "Chatbot Architecture",
+        "Persona Management",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.myndfulmind.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/myndfull.png",
+      video: "",
+    },
+    {
+      title: "MasterTrade Schools Learning Platform",
+      href: "https://www.mastertradeschools.com/",
+      dates: "October 2024 - November 2024",
+      active: true,
+      description:
+        "Built a comprehensive MVP from scratch for a professional trade learning platform featuring AI-powered personalized learning paths, course management system, and interactive training modules. Developed the entire platform architecture including user authentication, course delivery system, progress tracking, and instructor dashboard for electrical, plumbing, HVAC, welding, and carpentry programs.",
+      technologies: [
+        "Next.js",
+        "ReactJS",
         "Typescript",
-        "MongoDB",
-        "Clerk",
-        "Socket.io",
-        "TailwindCSS",
-        "Shadcn UI",
+        "Supabase",
+        "AI Integration",
+        "Course Management",
+        "User Authentication",
+        "Progress Tracking",
       ],
       links: [
         {
           type: "Website",
-          href: "https://spotify-but-better-e0ep.onrender.com/",
+          href: "https://www.mastertradeschools.com/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/shivam0912/spotify-but-better",
-          icon: <Icons.github className="size-3" />,
-        }
       ],
-      image: "/spotify.png",
+      image: "/mastertradeschool.png",
       video: "",
     },
-    {
-      title: "The Ultimate Blog",
-      href: "https://the-ultimate-blog.vercel.app",
-      dates: "December 2024",
-      active: true,
-      description:
-        "The Ultimate Blog is a modern blogging platform built with React.js, Tailwind CSS, Clerk, and MongoDB, designed for seamless content creation and management. It features a sleek, user-friendly interface, real-time data handling, and secure authentication, making it an ideal solution for writers and readers alike.",
-      technologies: [
-        "ReactJS",
-        "Node.js",
-        "MongoDB",
-        "TailwindCSS",
-        "Clerk",
-
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://the-ultimate-blog.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/shivam0912/theultimate-blog",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/tub.png",
-      video: "",
-    },
-    {
-      title: "p2p video calling app",
-      href: "https://github.com/shivam0912/webRTC-p2p-call-app",
-      dates: "July 2024",
-      active: true,
-      description:
-        "This real-time video calling app enables seamless peer-to-peer communication with high-quality video and audio. Built using WebRTC and Socket.io, it provides a smooth and reliable calling experience without requiring third-party servers for media streaming.",
-      technologies: [
-        "ReactJS",
-        "Javascript",
-        "socket.io",
-        "WebRTC",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://github.com/shivam0912/webRTC-p2p-call-app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/shivam0912/webRTC-p2p-call-app",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/Todolist.png",
-      video: "",
-    },
-
     {
       title: "Portfolio",
       href: "",
